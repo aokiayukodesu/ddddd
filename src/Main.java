@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
+//Map
 public class Main {
     public static void main(String[] args) {
         Map<String, String> kidsTv = new HashMap<>();
@@ -12,7 +13,7 @@ public class Main {
         System.out.println(kidsTv.get("おかあさんといっしょ"));
         System.out.println(kidsTv.get("みぃつけた！"));
 
-
+//例外処理
         String acolumn = "あいうえお";
         try {
             int number = Integer.parseInt(acolumn);
